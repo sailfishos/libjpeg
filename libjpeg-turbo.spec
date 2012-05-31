@@ -74,12 +74,13 @@ rm -rf $RPM_BUILD_ROOT/usr/share/doc
 %defattr(-,root,root)
 %doc README
 %{_libdir}/libjpeg.so.*
+%{_libdir}/libturbojpeg.so
 %{_bindir}/*
 %{_mandir}/*/*
 
 %files devel
 %defattr(-,root,root)
-%{_libdir}/*.so
+%{_libdir}/libjpeg.so
 /usr/include/*.h
 
 %files static

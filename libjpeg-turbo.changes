@@ -1,2 +1,5 @@
+* Thu May 31 2012 Carsten Munk <carsten@merproject.org> - 1.2.0
+- Fixes MER#225: libjpeg-turbo drags in libjpeg-turbo-devel
+
 * Thu Feb 16 2012 Carsten Munk <carsten@merproject.org> - 1.2.0
 - Fixes Mer#15: Use libjpeg-turbo instead, version 1.2.0

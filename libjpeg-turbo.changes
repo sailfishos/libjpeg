@@ -1,3 +1,6 @@
+* Wed Aug 15 2012 Risto Avila <risto.avila@utanet.fi> - 1.2.1
+- Fixes MER#466: upgraded libjpeg-turbo to 1.2.1
+
 * Thu May 31 2012 Carsten Munk <carsten@merproject.org> - 1.2.0
 - Fixes MER#225: libjpeg-turbo drags in libjpeg-turbo-devel
 

@@ -1,6 +1,6 @@
 Summary: A library for manipulating JPEG image format files
 Name: libjpeg-turbo
-Version: 1.2.0
+Version: 1.2.1
 Release: 0
 License: IJG
 Group: System/Libraries

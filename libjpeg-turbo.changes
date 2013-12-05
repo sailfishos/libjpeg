@@ -1,3 +1,6 @@
+* Thu Dec 05 2013 Carsten Munk <carsten.munk@jollamobile.com> - 1.2.1
+- Apply CVE patch for CVE-2013-6629 and CVE-2013-6630
+
 * Wed Aug 15 2012 Risto Avila <risto.avila@utanet.fi> - 1.2.1
 - Fixes MER#466: upgraded libjpeg-turbo to 1.2.1
 

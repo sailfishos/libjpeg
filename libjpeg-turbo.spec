@@ -7,6 +7,7 @@ Group: System/Libraries
 URL: http://www.libjpeg-turbo.org/
 
 Source0: libjpeg-turbo-%{version}.tar.gz
+Patch0: libjpeg-turbo-1.3.0-CVE-2013-6629-CVE-2013-6630.patch
 
 BuildRequires: autoconf libtool nasm
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
@@ -49,6 +50,7 @@ necessary for some boot packages.
 
 %prep
 %setup -q -n libjpeg-turbo-%{version}
+%patch0 -p1
 
 %build
 %configure --enable-shared --enable-static
